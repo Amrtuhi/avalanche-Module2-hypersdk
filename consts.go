@@ -1,6 +1,10 @@
 // Copyright (C) 2023, Ava Labs, Inc. All rights reserved.
 // See the file LICENSE for licensing terms.
 
-package actions
+package rpc
 
-const MaxMetadataSize = 256
+const (
+	JSONRPCEndpoint = "/tokenapi"
+
+	ordersToSend = 128
+)
